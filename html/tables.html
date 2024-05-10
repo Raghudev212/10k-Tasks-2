@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Free Web tutorials" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta http-equiv="refresh" content="10">
+    <title>Tables</title>
+    <link
+      rel="shortcut icon"
+      href="https://enviragallery.com/wp-content/uploads/2019/02/spinner.jpeg"
+      type="image/x-icon"
+    />
+    <style>
+      td,
+      th {
+        border: 4px solid black;
+        border-collapse: collapse;
+      }
+
+      tbody {
+        background-color: red;
+      }
+      thead {
+        background-color: green;
+      }
+      tfoot {
+        background-color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <table style="border: 5px solid black" cellspacing="13" cellpadding="10">
+      <thead>
+        <tr>
+          <th colspan="4">data1</th>
+          <!-- <th>data2</th>
+          <th>data3</th>
+          <th>data3</th> -->
+          <!-- <th>images</th> -->
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>data3</td>
+          <td>data11</td>
+          <td>data22</td>
+          <td rowspan="4">data33</td>
+          <!-- <td><img src="../multimedia/images/1.png" height="100" /></td> -->
+        </tr>
+        <tr>
+          <td>data3</td>
+          <td rowspan="">data11</td>
+          <td>data22</td>
+          <!-- <td>data33</td> -->
+          <!-- <td><img src="../multimedia/images/1.png" height="100" /></td> -->
+        </tr>
+        <tr>
+          <td>data3</td>
+          <td colspan="2">data11</td>
+          <!-- <td>data22</td> -->
+          <!-- <td>data33</td> -->
+          <!-- <td><img src="../multimedia/images/1.png" height="100" /></td> -->
+        </tr>
+        <tr>
+          <td>data3</td>
+          <td>data11</td>
+          <td>data22</td>
+          <!-- <td>data33</td> -->
+          <!-- <td><img src="../multimedia/images/1.png" height="100" /></td> -->
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>data3</td>
+          <td>data11</td>
+          <td>data22</td>
+          <td>data33</td>
+          <!-- <td><img src="../multimedia/images/1.png" height="100" /></td> -->
+        </tr>
+      </tfoot>
+    </table>
+
+    <bdo dir="rtl">
+      <p>para1</p>
+      <p>para2</p>
+      <p>para3</p>
+    </bdo>
+    <bdo dir="rtl">
+      <img src="../multimedia/images/3.png" height="100" />
+      <img src="../multimedia/images/5.png" height="100" />
+      <img src="../multimedia/images/chrmnr.jpg" height="100" />
+    </bdo>
+  </body>
+</html>
+
+<!-- topics:
+----------
+1.tables
+2.rowspan and colspan
+3.cellspacing and cell padding
+4.bdo tag
+5.meta tag
+6.favicon
+
+task:
+-----
+1.practise all the discussed topics
+2.calculator UI
+3.IMAGE GALLERY UI Using tables
+4.OWN UI
+5.Doc
+6.RESEARCH--FORMS
+-->

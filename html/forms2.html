@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <!-- <input
+      name="data"
+        type="text"
+        pattern="[a-zA-Z]{3,7}"
+        title="accepts lowercase/uppercase with min of 3 and max of 7"
+      />
+     
+      
+      <label for="reviews">give reviews:</label>
+      <textarea name="reviews" id="reviews" rows="5" cols="30"></textarea> -->
+      <input type="text" autofocus/>
+      <label for="clr">choose ur fav color:</label>
+
+      <select id="clr" name="clrs" multiple autofocus>
+        <optgroup label="group1">
+          <option value="YCP">TDP</option>
+          <option value="YCP">YCP</option>
+        </optgroup>
+        <optgroup label="group2">
+          <option value="YCP">JSP</option>
+          <option value="YCP">CONGRESS</option>
+        </optgroup>
+      </select>
+
+      <label for="list">enter fav language:</label>
+      <input type="list" id="list" list="languages1" name="languages">
+      <datalist id="languages">
+        <option>language1</option>
+        <option>language2</option>
+        <option>language3</option>
+        <option>language4</option>
+    </datalist>
+    <datalist id="languages1">
+        <option>language11</option>
+        <option>language22</option>
+        <option>language33</option>
+        <option>language44</option>
+    </datalist>
+      <br /><br /><input type="submit" />
+    </form>
+  </body>
+</html>
+
+<!-- topics:
+------------
+form elements
+input types
+select tag and datalist
+method-get&post
+action & formaction
+
+task:
+----
+practise all discussed topics
+and form using form actions as per the screenshot shared in the group
+research on git and github
+-->

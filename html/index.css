@@ -1,0 +1,60 @@
+img:hover
+{
+
+	border-radius:50%;
+	
+}
+p{
+	display:inline;
+}
+
+.img1{
+	
+}
+
+.p1:hover + .img1{
+display:none;
+}
+.cd{
+	border:2px solid;
+	margin-top:3px;
+
+
+}
+.md{
+	border:2px solid;
+	padding:5px;
+width:40px;
+	}
+
+.md:hover+.menu{
+
+display:block;
+}
+.md:hover{
+	background-color:red;
+}
+
+.menu{
+	display:none;
+
+}
+
+
+
+
+combinators..
+
+advance concept of css selectors
+
+types of selectors:
+1.simple
+	i.tagname
+	ii.class
+	iii.id
+	iv.grouping
+	v.universal
+2.combinators
+3.attributes selectors
+4.pseudo classes
+5.pseudo elements
